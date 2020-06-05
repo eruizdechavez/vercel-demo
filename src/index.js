@@ -1,8 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
-
-function App() {
-  return <h1>Hello World!</h1>;
-}
+import App from "./components/App";
 
 render(<App />, document.querySelector("#root"));
