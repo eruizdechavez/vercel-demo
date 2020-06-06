@@ -1,5 +1,5 @@
-import React from "react";
-import { render } from "react-dom";
-import App from "./components/App";
+import App from "./components/App.svelte";
 
-render(<App />, document.querySelector("#root"));
+new App({
+  target: document.querySelector("#root"),
+});
